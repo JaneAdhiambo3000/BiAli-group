@@ -1,0 +1,30 @@
+
+body{
+    background:
+        /* top, transparent black, faked with gradient */ 
+        linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        /* bottom, image */
+        url("images/flat\ 103.jpg")
+    color: white;
+    font-weight: bolder;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+    font-family: "Roboto" sans-serif;
+    font-size: 24px;
+    padding: 30px;
+    margin-top: 50px;
+   
+}
+
+#one, #two, #three{
+    padding-top: 50px;
+}
+
+p{
+    font-size: 30px;
+}
