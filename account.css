@@ -1,0 +1,64 @@
+nav{
+    float: right;
+    color: black;
+    height: 20px;
+    align-items: right;
+    text-align: start;
+    display: flex;
+    padding-top: 1px;
+    
+}
+ul li{
+    list-style:none;
+    display: inline-block;
+    float: left;
+    padding: 1rem;
+}
+ul li a{
+    font-size: 20px;
+    font-family:'roboto' sans-serif;
+    text-decoration: none;
+    color: aqua;
+    font-weight: bold;
+}
+ul{
+    margin: 0;
+    margin: 0;
+}
+body{
+    color: white;
+    font-family: "Robotto",sans-serif;
+    font-size: 30px;
+    
+}
+
+#one, #two, #three{
+    padding-top: 50px;
+}
+
+p{
+    font-size: 30px;
+    padding-left: 100px;
+}
+
+.background-image{
+    height: 100%;
+    width: 100%;
+    background-color:#4B4848 ;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('flat 103.jpg');
+    background-size: cover;
+    background-blend-mode: hard-light;
+}
+
+h1{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.container{
+    padding-left: 150px;
+}
+
+#one p1, #two p1, #three p1{
+    padding-left: 30px;
+}
