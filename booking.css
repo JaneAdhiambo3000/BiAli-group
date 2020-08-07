@@ -71,7 +71,7 @@ ul{
                     .background-image {
                         height: 100%;
                         width: 100%;                 
-                        background-image: url('img/flat\ 103.jpg');
+                        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/flat\ 103.jpg');
                         background-size: cover;
                         background-blend-mode: hard-light;
                     }
